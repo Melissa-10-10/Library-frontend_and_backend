@@ -1,0 +1,12 @@
+.office-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.office-table th,
+.office-table td {
+  border: 1px solid;
+  padding: 8px;
+  text-align: left;
+}

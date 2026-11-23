@@ -1,0 +1,82 @@
+
+/* General page design */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Main container */
+#root > div {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Book list */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background: #f1f5f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
